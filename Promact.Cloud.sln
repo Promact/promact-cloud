@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.Cloud.Core", "Promact.Cloud.Core\Promact.Cloud.Core.csproj", "{7C6A71D9-D075-4AB3-9D87-9E375C72DD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.Cloud.Azure", "Promact.Cloud.Azure\Promact.Cloud.Azure.csproj", "{1C635084-C3F9-4916-A12A-5084D7AB1053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.Cloud.Amazon", "Promact.Cloud.Amazon\Promact.Cloud.Amazon.csproj", "{09BAD335-C674-48BA-9CFC-1AD0438513ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.Cloud.Google", "Promact.Cloud.Google\Promact.Cloud.Google.csproj", "{9D074D9B-EA6D-48B8-821D-2E8016254D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.Cloud.Local", "Promact.Cloud.Local\Promact.Cloud.Local.csproj", "{8629C7AA-D7DE-4ECB-8BA8-4E8551BC73E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Promact.Cloud.Integration", "Autofac.Promact.Cloud.Integration\Autofac.Promact.Cloud.Integration.csproj", "{B95AF796-05D7-4BDB-8504-9E1A77DB2626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6A71D9-D075-4AB3-9D87-9E375C72DD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A71D9-D075-4AB3-9D87-9E375C72DD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A71D9-D075-4AB3-9D87-9E375C72DD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A71D9-D075-4AB3-9D87-9E375C72DD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C635084-C3F9-4916-A12A-5084D7AB1053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C635084-C3F9-4916-A12A-5084D7AB1053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C635084-C3F9-4916-A12A-5084D7AB1053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C635084-C3F9-4916-A12A-5084D7AB1053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BAD335-C674-48BA-9CFC-1AD0438513ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BAD335-C674-48BA-9CFC-1AD0438513ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BAD335-C674-48BA-9CFC-1AD0438513ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BAD335-C674-48BA-9CFC-1AD0438513ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D074D9B-EA6D-48B8-821D-2E8016254D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D074D9B-EA6D-48B8-821D-2E8016254D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D074D9B-EA6D-48B8-821D-2E8016254D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D074D9B-EA6D-48B8-821D-2E8016254D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8629C7AA-D7DE-4ECB-8BA8-4E8551BC73E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8629C7AA-D7DE-4ECB-8BA8-4E8551BC73E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8629C7AA-D7DE-4ECB-8BA8-4E8551BC73E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8629C7AA-D7DE-4ECB-8BA8-4E8551BC73E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95AF796-05D7-4BDB-8504-9E1A77DB2626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95AF796-05D7-4BDB-8504-9E1A77DB2626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95AF796-05D7-4BDB-8504-9E1A77DB2626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95AF796-05D7-4BDB-8504-9E1A77DB2626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
